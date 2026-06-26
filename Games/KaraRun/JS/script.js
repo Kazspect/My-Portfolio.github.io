@@ -58,21 +58,7 @@ let character = {
     charHitboxHeight: 90
 }
 
-// let assetsLoaded = 0;
-// let totalAssets = 6;
-
-// function loadAsset() {
-//     assetsLoaded++;
-
-//     if (assetsLoaded === totalAssets){
-
-//         requestAnimationFrame(Update);
-//         setInterval(placeBuilding, 1000); //This is in milliseconds
-//         document.addEventListener("keydown", playerInput);
-//     }
-// }
-
-function startGame() {
+window.onload =  function() {
     Board = document.getElementById("Board"); //[Gets the board from html]
     Board.height = boardHeight;
     Board.width = boardWidth;
@@ -93,35 +79,25 @@ function startGame() {
     });
 
     cityBGImg = new Image();
-    // cityBGImg.onload = loadAsset;
     cityBGImg.src = "Assets/CityBG.png";
     cloudsImg = new Image();
-    // cloudsImg.onload = loadAsset;
     cloudsImg.src = "Assets/Cloud_2.png";
 
     karaImg = new Image();
-    // karaImg.onload = loadAsset;
     karaImg.src = "Assets/KaraRight.png";
 
     karaImg.onload = function() 
     {
-        if(karaImg && karaImg.complete){
-            context.drawImage(karaImg, character.x, character.y, character.width, 
-            character.height);
-
-        }
+        context.drawImage(karaImg, character.x, character.y, character.width, character.height);
     }
 
     building_1Img = new Image();
-    // building_1Img.onload = loadAsset;
     building_1Img.src = "Assets/Building_1.png";
 
     building_2Img = new Image();
-    // building_2Img.onload = loadAsset;
     building_2Img.src = "Assets/Building_2.png";
 
     building_3Img = new Image();
-    // building_3Img.onload = loadAsset;
     building_3Img.src = "Assets/Building_3.png";
 
     requestAnimationFrame(Update);
@@ -169,6 +145,7 @@ function playerInput(e)
 
 function drawBackGround()
 {
+    //[Places BackGrounds]
     context.drawImage(cloudsImg, 480, 60, 64, 64);
     context.drawImage(cloudsImg, 400, 60, 64, 64);
     context.drawImage(cloudsImg, 750, 100, 64, 64);
@@ -321,10 +298,6 @@ function collisionDetection(objectA, objectB)
             charHitbox.x + charHitbox.width > buildingHitbox.x &&
             charHitbox.y < buildingHitbox.y + buildingHitbox.height &&
             charHitbox.y + charHitbox.height > buildingHitbox.y;
-}
-
-window.onload = function(){
-    startGame();
 }
 
 // context.strokeStyle = "green";
