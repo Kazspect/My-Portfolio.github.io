@@ -1,0 +1,79 @@
+.Card-Layout{
+    color: white;
+}
+
+.Card-Title{
+    font-size: 4rem;
+    width: 800px;
+    margin-bottom: 1rem;
+}
+
+.Card-Genre{
+    font-size: 1.5rem;
+}
+
+.Card-Image{
+    width: 100%;
+    height: auto;
+    border: 3px solid rgb(148, 137, 130);
+    border-radius: 8px;
+    display: block;
+}
+
+.overviewTitle{
+    color: rgb(219, 151, 23);
+    margin-top: 30%;
+    width: 200px;
+    border-bottom: 3px solid orange;
+    margin-bottom: 1rem;
+}
+
+.roleTitle{
+    color: rgb(219, 151, 23);
+    width: 100px;
+    border-bottom: 3px solid orange;
+    margin-bottom: 1rem;
+}
+
+.programsTitle{
+    color: rgb(219, 151, 23);
+    width: 180px;
+    border-bottom: 3px solid orange;
+    margin-bottom: 1rem;
+}
+
+.Thumbnail-Wrap{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.Thumbnail-Container{
+    display: flex;
+    gap: 8px;
+    overflow: hidden;
+}
+
+.Project-Thumbnail{
+    width: 150px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.Project-Thumbnail:hover{
+    transform: scale(1.05);
+}
+
+.Active-Thumbnail{
+    border: 3px solid orange;
+}
+
+.Thumnail-Arrow{
+    background-color: rgba(0, 0, 0, 0);
+    color: orange;
+    border: rgba(0, 0, 0, 0);
+    width: 40px;
+    height: 40px;
+}

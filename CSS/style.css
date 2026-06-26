@@ -1,0 +1,511 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #04091d;
+}
+
+.HomePageNavBar{
+    background-color: #070f2e;
+}
+
+.AboutNav{
+    color: white;
+    transition: 0.3s;
+}
+
+.AboutNav:hover{
+    color: orange;
+    /* background-color: greenyellow; */
+    /* border-radius: 5px; */
+}
+
+.ProjectsNav{
+    color: white;
+    transition: 0.3s;
+}
+
+.ProjectsNav:hover{
+    color: orange;
+}
+
+.GamesNav{
+    color: white;
+    transition: 0.3s;
+}
+
+.GamesNav:hover{
+    color: orange;
+}
+
+.ContactsNav{
+    color: white;
+    transition: 0.3s;
+}
+
+.ContactsNav:hover{
+    color: orange;
+}
+
+.Intro{
+    position: relative;
+}
+
+.HomePageImg{
+    width: 100%;
+    height: 75vh;
+    /* object-fit: cover; */
+}
+
+.HomePageIntro{
+    position: absolute;
+    color: white;
+
+    max-width: 600px;
+
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.HomePageIntro h1{
+    /* font-size: xx-large; */
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.HomePageIntro p{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ViewWorkButton:hover{
+    background-color: rgb(219, 151, 23);
+}
+
+.KaraRunGame{
+    width: 100%;
+    max-width: 900px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+#Projects{
+    position: relative;
+    padding-top: 3%;
+}
+
+.ProjectCards{
+    color: white;
+    margin-top: 2rem;
+}
+
+.MyProjectsTitle{
+    border-bottom: 3px solid orange;
+}
+
+.EchoesOfMateria_group{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 2rem;
+}
+
+.EchoesOfMateria_group:hover{
+    color: orange;
+}
+
+.EchoesOfMateriaimg{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.EchoesOfMateriaimg:hover{
+    transform: scale(1.05);
+}
+
+.Li-brarynth_group{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 2rem;
+}
+
+.Li-brarynth_group:hover{
+    color: orange;
+}
+
+.Li-brarynthImg{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.Li-brarynthImg:hover{
+    transform: scale(1.05);
+}
+
+.VeiledBelow_Group{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 2rem;
+}
+
+.VeiledBelow_Group:hover{
+    color: orange;
+}
+
+.VeiledBelowImg{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.VeiledBelowImg:hover{
+    transform: scale(1.05);
+}
+
+.bauhausPoster_group{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 2rem;
+}
+
+.bauhausPoster_group:hover{
+    color: orange;
+}
+
+.bauhausPosterimg{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.bauhausPosterimg:hover{
+    transform: scale(1.05);
+}
+
+.legoRenderRTX_group{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 2rem;
+}
+
+.legoRenderRTX_group:hover{
+    color: orange;
+}
+
+.LegoRenderRTXimg{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.LegoRenderRTXimg:hover{
+    transform: scale(1.05);
+}
+
+.legoRenderVid_group{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 2rem;
+}
+
+.legoRenderVid_group:hover{
+    color: orange;
+}
+
+.LegoRenderVidPlacement{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.LegoRenderVidPlacement:hover{
+    transform: scale(1.05);
+}
+
+.stopMotionVid_group{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 2rem;
+}
+
+.stopMotionVid_group:hover{
+    color: orange;
+}
+
+.stopMotionVidPlacement{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.stopMotionVidPlacement:hover{
+    transform: scale(1.05);
+}
+
+.animationPose01_group{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 2rem;
+}
+
+.animationPose01_group:hover{
+    color: orange;
+}
+
+.AnimationPoseStaffimg{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.AnimationPoseStaffimg:hover{
+    transform: scale(1.05);
+}
+
+.animationPose02_group{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 2rem;
+}
+
+.animationPose02_group:hover{
+    color: orange;
+}
+
+.AnimatioKneelingimg{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.AnimatioKneelingimg:hover{
+    transform: scale(1.05);
+}
+
+.challengeDrawing01_group{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 2rem;
+}
+
+.challengeDrawing01_group:hover{
+    color: orange;
+}
+
+.ChallengeDrawingimg{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.ChallengeDrawingimg:hover{
+    transform: scale(1.05);
+}
+
+.chibiKazHollowPurple_group{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 2rem;
+}
+
+.chibiKazHollowPurple_group:hover{
+    color: orange;
+}
+
+.ChibiKazspectHollowPurpleimg{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.ChibiKazspectHollowPurpleimg:hover{
+    transform: scale(1.05);
+}
+
+.SneakingCharacter_group{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 2rem;
+}
+
+.SneakingCharacter_group:hover{
+    color: orange;
+}
+
+.SneakingCharacterimg{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.SneakingCharacterimg:hover{
+    transform: scale(1.05);
+}
+
+#About{
+    position: relative;
+    padding-top: 3%;
+}
+
+.AboutSection{
+    color: white;
+    margin-top: 2rem;
+}
+
+.KazspectCharImg{
+    width: 100%;
+    height: auto;
+}
+
+.AboutMeTitle{
+    border-bottom: 3px solid orange;
+}
+
+#Contact{
+    position: relative;
+    padding-top: 3%;
+}
+
+.ContactsBG{
+    width: 100%;
+    height: auto;
+}
+
+.ContactSection{
+    position: relative;
+}
+
+.BGOpacity{
+    position: absolute;
+    background: #050f3842;
+    
+    width: 50%;
+    height: 100%;
+    
+    top: 0%;
+    left: 0%;
+}
+
+.ContactInfo{
+    color: white;
+    position: absolute;
+
+    text-align: left;
+
+    top: 2%;
+    left: 5%;
+}
+
+.ContactInfo h1{
+    width: 600px;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid orange;
+    /* text-shadow: 0 4px 20px rgba(218, 5, 179, 0.879); */
+}
+
+.ContactInfo h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.ContactLinks{
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.EmailAddress{
+    color: white;
+}
+
+.EmailAddress:hover{
+    color: orange;
+}
+
+.LinkedIn{
+    color: white;
+}
+
+.LinkedIn:hover{
+    color: orange;
+}
+
+.instagram{
+    color: white;
+}
+
+.instagram:hover{
+    color: orange;
+}
+
+.form-control{
+    background-color: #1d0736;
+    color: white;
+    border: 3px solid rgb(219, 151, 23);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form-control::placeholder{
+    color: white;
+}
+
+.form-control:focus{
+    background-color: #1d0736;
+    color: white;
+    border: 3px solid rgb(219, 151, 23);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.Form-Subject{
+    width: 49%;
+}
+
+.Form-Message{
+    width: 49%;
+} 
+
+.Form-Send:hover{
+    background-color: rgb(219, 151, 23);
+}

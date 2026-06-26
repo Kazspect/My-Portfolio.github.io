@@ -1,0 +1,33 @@
+body{
+
+   margin: 0;
+   display : flex;
+   flex-direction: column;
+   justify-content : center;
+   align-items : center;
+   height : 100vh;
+
+}
+
+h1{
+   color: white;
+   font-size: 4rem;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 50px;
+   margin-bottom: 2rem;
+   border-bottom: 3px solid orange;
+}
+
+#Board{ /*Had to use hashtag for ID, making canvas a class makes it a list*/
+   background-color: rgb(30, 64, 157);
+   border-bottom: 3px solid rgb(0, 153, 255);
+}
+
+#MuteBttn{
+   margin-top: 10;
+   width: 50px;
+   height: 25px;
+   padding: 40px, 30px;
+   cursor: pointer;
+}
