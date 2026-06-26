@@ -123,6 +123,10 @@ function startGame() {
     building_3Img = new Image();
     // building_3Img.onload = loadAsset;
     building_3Img.src = "Assets/Building_3.png";
+
+    requestAnimationFrame(Update);
+    setInterval(placeBuilding, 1000); //This is in milliseconds
+    document.addEventListener("keydown", playerInput);
 }
 
 function Update() {
@@ -321,10 +325,6 @@ function collisionDetection(objectA, objectB)
 
 window.onload = function(){
     startGame();
-
-    requestAnimationFrame(Update);
-    setInterval(placeBuilding, 1000); //This is in milliseconds
-    document.addEventListener("keydown", playerInput);
 }
 
 // context.strokeStyle = "green";
