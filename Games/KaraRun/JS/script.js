@@ -79,7 +79,7 @@ window.onload =  function() {
     });
 
     cityBGImg = new Image();
-    cityBGImg.src = "Assets/CityBG.png";
+    cityBGImg.src = "Assets/CityBg.png";
     cloudsImg = new Image();
     cloudsImg.src = "Assets/Cloud_2.png";
 
