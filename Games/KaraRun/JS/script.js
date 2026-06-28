@@ -66,7 +66,7 @@ window.onload =  function() {
     context = Board.getContext("2d"); //[allows drawing on the board canvas]
 
     //[Music]
-    backGroundMusic =  new Audio("Assets/Music/Windmill Isle (Night) - Sonic Unleashed [OST].mp3");
+    backGroundMusic =  new Audio("Assets/Music/WindmillIsle-Night.mp3");
     backGroundMusic.loop = true;
     backGroundMusic.volume = 0.5;
     const muteBttn = document.getElementById("MuteBttn");
@@ -79,12 +79,12 @@ window.onload =  function() {
     });
 
     cityBGImg = new Image();
-    cityBGImg.src = "./Assets/CityBG.png";
+    cityBGImg.src = "Assets/CityBG.png";
     cloudsImg = new Image();
-    cloudsImg.src = "./Assets/Cloud_2.png";
+    cloudsImg.src = "Assets/Cloud_2.png";
 
     karaImg = new Image();
-    karaImg.src = "./Assets/KaraRight.png";
+    karaImg.src = "Assets/KaraRight.png";
 
     karaImg.onload = function() 
     {
@@ -92,13 +92,13 @@ window.onload =  function() {
     }
 
     building_1Img = new Image();
-    building_1Img.src = "./Assets/Building_1.png";
+    building_1Img.src = "Assets/Building_1.png";
 
     building_2Img = new Image();
-    building_2Img.src = "./Assets/Building_2.png";
+    building_2Img.src = "Assets/Building_2.png";
 
     building_3Img = new Image();
-    building_3Img.src = "./Assets/Building_3.png";
+    building_3Img.src = "Assets/Building_3.png";
 
     requestAnimationFrame(Update);
     setInterval(placeBuilding, 1000); //This is in milliseconds
